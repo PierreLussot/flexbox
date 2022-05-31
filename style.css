@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  height: 500px;
+  background-color: blanchedalmond;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
